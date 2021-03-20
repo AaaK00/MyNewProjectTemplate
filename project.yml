@@ -1,18 +1,19 @@
 name: #PROJECT_NAME#
 packages:
-  ReSwift:
-    url: https://github.com/ReSwift/ReSwift.git
-    branch: 5.0.0
+  # Uncomment this to add SPM dependency
+  # ReSwift:
+  #   url: https://github.com/ReSwift/ReSwift.git
+  #   branch: 5.0.0
 targets:
   #PROJECT_NAME#:
     type: application
     platform: iOS
     deploymentTarget: 14.0
     sources: [iOS, Shared]
-    dependencies:
-      - package: ReSwift
+    # dependencies:
+    #   - package: ReSwift
     settings:
-      PRODUCT_BUNDLE_IDENTIFIER: com.#PROJECT_NAME#.ios
+      PRODUCT_BUNDLE_IDENTIFIER: ak.#PROJECT_NAME#
       SWIFT_VERSION: '5.3'
     postCompileScripts:
       - script: |
