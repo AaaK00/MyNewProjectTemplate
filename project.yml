@@ -1,9 +1,9 @@
 name: #PROJECT_NAME#
-packages:
-  # Uncomment this to add SPM dependency
-  # ReSwift:
-  #   url: https://github.com/ReSwift/ReSwift.git
-  #   branch: 5.0.0
+# packages:
+#   Uncomment this to add SPM dependency
+#   ReSwift:
+#     url: https://github.com/ReSwift/ReSwift.git
+#     branch: 5.0.0
 targets:
   #PROJECT_NAME#:
     type: application
